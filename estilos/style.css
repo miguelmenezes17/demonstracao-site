@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #012030;
+    --cor2: #13678A;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+body {
+    background-color: var(--cor4);
+    background-image: url();
+}
