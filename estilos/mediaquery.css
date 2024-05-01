@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* TIPICAL DEVICE BREAKPOINTS - Sempre pesquisar sobre antes da fazer um site.
+--------------------------
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+
+*/
+
+@media screen and (max-width: 602px) {
+    main {
+        width: 200px;
+    }
+
+    p {
+        font-size: 1.05em;
+    }
+}
+
+@media screen and (min-width: 602px) and (max-width: 768px) {
+    main {
+        width: 350px;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 450px;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
