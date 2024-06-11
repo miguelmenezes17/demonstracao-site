@@ -19,6 +19,10 @@ Grandes Telas: Acima de 1200px;
         width: 280px;
     }
 
+    header {
+        width: 360px;
+    }
+
     p {
         font-size: 1.05em;
     }
